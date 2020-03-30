@@ -10,6 +10,7 @@
 #import "UIResponder+router.h"
 #import "UIButton+EnlargeTouchArea.h"
 #import "ResponderView.h"
+#import "NSObject+swizzle.h"
 
 @interface ViewController ()
 
@@ -33,6 +34,8 @@
     [self.view addSubview:button];
     
     [button setEnlargeEdgeWithTop:30 right:30 bottom:30 left:30];
+    
+    [self performSelector:@selector(runing)];
 }
 
 #pragma mark -"UIResponder+router.h"

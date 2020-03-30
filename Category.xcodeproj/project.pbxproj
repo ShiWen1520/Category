@@ -18,9 +18,9 @@
 		18661696242314B100BD7174 /* ResponderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18661695242314B100BD7174 /* ResponderView.m */; };
 		18661698242314E500BD7174 /* ResponderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18661697242314E500BD7174 /* ResponderView.xib */; };
 		1866169B2423171300BD7174 /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866169A2423171300BD7174 /* UIButton+EnlargeTouchArea.m */; };
-		18CB200F2431810900A87A96 /* NSObject+forwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB200D2431810900A87A96 /* NSObject+forwarding.m */; };
 		18CB2012243181B300A87A96 /* NSObject+swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB2011243181B200A87A96 /* NSObject+swizzle.m */; };
 		18CB20152431974D00A87A96 /* NSString+SWExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20142431974D00A87A96 /* NSString+SWExtention.m */; };
+		18CB20162431CA4900A87A96 /* NSObject+forwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB200D2431810900A87A96 /* NSObject+forwarding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CB20162431CA4900A87A96 /* NSObject+forwarding.m in Sources */,
 				1866167E2423132700BD7174 /* ViewController.m in Sources */,
 				1866169B2423171300BD7174 /* UIButton+EnlargeTouchArea.m in Sources */,
 				18CB2012243181B300A87A96 /* NSObject+swizzle.m in Sources */,
@@ -204,7 +205,6 @@
 				186616782423132700BD7174 /* AppDelegate.m in Sources */,
 				186616892423132900BD7174 /* main.m in Sources */,
 				1866167B2423132700BD7174 /* SceneDelegate.m in Sources */,
-				18CB200F2431810900A87A96 /* NSObject+forwarding.m in Sources */,
 				18661696242314B100BD7174 /* ResponderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
